@@ -77,6 +77,64 @@ NetSentry requiere herramientas específicas para realizar cálculos de red y fo
 
 **1. Clonar el repositorio:**
 ```bash
-git clone [https://github.com/CCDani/NetSentry.git](https://github.com/CCDani/NetSentry.git)
+git clone https://github.com/CCDani/NetSentry.git
+````
+```bash
 cd NetSentry
-chmod +x netsentry.sh
+```
+```bash
+chmod +x NetSentry.sh
+```
+
+
+
+
+
+**2. Instalar dependencias (Debian/Ubuntu/Kali):**
+
+```Bash
+sudo apt update
+```
+```Bash
+sudo apt install nmap ipcalc miller -y
+```
+
+**nmap:** Core del escaneo.
+
+
+**ipcalc:** Necesario para calcular rangos de red y máscaras.
+
+**miller (mlr):** Opcional (pero recomendado) para visualización de tablas bonitas en terminal.
+
+
+**3. Actualizar base de datos de scripts de Nmap: Para que la detección de CVEs funcione correctamente:**
+
+```Bash
+sudo nmap --script-updatedb
+```
+## 💻 Uso
+El script es interactivo. Simplemente ejecútalo con privilegios de root (necesarios para escaneos SYN y detección de SO).
+
+```Bash
+sudo ./netsentry.sh
+```
+
+**Selecciona/Crea un Workspace:** Elige un nombre para tu auditoría actual.
+
+Opción 1 (Descubrimiento): Identifica los hosts vivos en tu red o en una IP manual.
+
+Opción 2 (Enumeración): Elige entre "Smart Scan" o "Traditional" para buscar vulnerabilidades en los hosts detectados.
+
+📊 Integración con Dashboard
+NetSentry genera archivos XML (.xml) estandarizados en la carpeta de tu proyecto. Estos archivos están optimizados para ser importados en herramientas de análisis gráfico.
+
+Para una visualización profesional de los resultados, utiliza el Nmap Dashboard Analyzer:
+
+👉 Repositorio: https://github.com/CCDani/nmap-dashboard-analyzer
+
+Simplemente carga el archivo vuln_report_SMART_xxx.xml generado por NetSentry en el dashboard para ver gráficos de puertos, sistemas operativos y CVEs críticos.
+
+⚠️ Disclaimer
+Esta herramienta está diseñada únicamente para fines educativos y auditorías de seguridad autorizadas. El uso de este script contra redes o sistemas sin el consentimiento previo y explícito del propietario es ilegal. El autor no se hace responsable del mal uso de esta herramienta.
+
+By Daniel Castellano (CCDani)
