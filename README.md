@@ -20,7 +20,7 @@
 - [Disclaimer](#-disclaimer)
 
 ![Screenshot of NetSentry](Captura.JPG)
-![Screenshot of NetSentry](Captura-2.JPG)
+
 
 
 ---
@@ -128,6 +128,8 @@ sudo ./netsentry.sh
 Opción 1 (Descubrimiento): Identifica los hosts vivos en tu red o en una IP manual.
 
 Opción 2 (Enumeración): Elige entre "Smart Scan" o "Traditional" para buscar vulnerabilidades en los hosts detectados.
+
+![Screenshot of NetSentry](Captura-2.JPG)
 
 ## 📊 Integración con Dashboard
 NetSentry genera archivos XML (.xml) estandarizados en la carpeta de tu proyecto. Estos archivos están optimizados para ser importados en herramientas de análisis gráfico.
