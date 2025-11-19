@@ -125,7 +125,7 @@ Opción 1 (Descubrimiento): Identifica los hosts vivos en tu red o en una IP man
 
 Opción 2 (Enumeración): Elige entre "Smart Scan" o "Traditional" para buscar vulnerabilidades en los hosts detectados.
 
-📊 Integración con Dashboard
+## 📊 Integración con Dashboard
 NetSentry genera archivos XML (.xml) estandarizados en la carpeta de tu proyecto. Estos archivos están optimizados para ser importados en herramientas de análisis gráfico.
 
 Para una visualización profesional de los resultados, utiliza el Nmap Dashboard Analyzer:
@@ -134,7 +134,7 @@ Para una visualización profesional de los resultados, utiliza el Nmap Dashboard
 
 Simplemente carga el archivo vuln_report_SMART_xxx.xml generado por NetSentry en el dashboard para ver gráficos de puertos, sistemas operativos y CVEs críticos.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 Esta herramienta está diseñada únicamente para fines educativos y auditorías de seguridad autorizadas. El uso de este script contra redes o sistemas sin el consentimiento previo y explícito del propietario es ilegal. El autor no se hace responsable del mal uso de esta herramienta.
 
 By Daniel Castellano (CCDani)
