@@ -19,6 +19,10 @@
 - [Integración con Dashboard](#-integración-con-dashboard)
 - [Disclaimer](#-disclaimer)
 
+![Screenshot of NetSentry](Captura.JPG)
+![Screenshot of NetSentry](Captura-2.JPG)
+
+
 ---
 
 ## 🚀 Características Principales
