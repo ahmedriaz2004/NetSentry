@@ -317,7 +317,7 @@ function service_enumeration() {
 
     # --- MENSAJE FINAL DASHBOARD ---
     echo -e "\n${purpleColour}_______________________________________________________________________${endColour}"
-    echo -e "\n${yellowColour}[TIP]${endColour} ${grayColour}Visualiza estos resultados gráficamente usando tu dashboard:${endColour}"
+    echo -e "\n${yellowColour}[TIP]${endColour} ${grayColour}Visualiza estos resultados gráficamente usando nmap-dashboard-analyzer:${endColour}"
     echo -e "${blueColour}https://github.com/CCDani/nmap-dashboard-analyzer${endColour}\n"
 }
 
